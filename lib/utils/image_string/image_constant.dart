@@ -485,4 +485,46 @@ class ImageConstant {
   static const String mthAddQV4 = "assets/images/mathematics/addition/addqv4.png";
   static const String mthAddQV5 = "assets/images/mathematics/addition/addqv5.png";
   static const String mthAddQV6 = "assets/images/mathematics/addition/addqv6.png";
+
+  //   Math Subtraction
+  static const String mthSub1 = "assets/images/mathematics/subtraction/sub1.png";
+  static const String mthSub2 = "assets/images/mathematics/subtraction/sub2.png";
+  static const String mthSub3 = "assets/images/mathematics/subtraction/sub3.png";
+  static const String mthSub4 = "assets/images/mathematics/subtraction/sub4.png";
+  static const String mthSub5 = "assets/images/mathematics/subtraction/sub5.png";
+  static const String mthSub6 = "assets/images/mathematics/subtraction/sub6.png";
+
+  //   Math Subtraction
+  static const String mthSubM1 = "assets/images/mathematics/subtraction/subm1.png";
+  static const String mthSubM2 = "assets/images/mathematics/subtraction/subm2.png";
+  static const String mthSubM3 = "assets/images/mathematics/subtraction/subm3.png";
+  static const String mthSubM4 = "assets/images/mathematics/subtraction/subm4.png";
+  static const String mthSubM5 = "assets/images/mathematics/subtraction/subm5.png";
+  static const String mthSubM6 = "assets/images/mathematics/subtraction/subm6.png";
+  static const String mthSubM7 = "assets/images/mathematics/subtraction/subm7.png";
+  static const String mthSubM8 = "assets/images/mathematics/subtraction/subm8.png";
+
+  //   Math Subtraction
+  static const String mthSubM9 = "assets/images/mathematics/subtraction/subm9.png";
+  static const String mthSubM10 = "assets/images/mathematics/subtraction/subm10.png";
+  static const String mthSubM11 = "assets/images/mathematics/subtraction/subm11.png";
+  static const String mthSubM12 = "assets/images/mathematics/subtraction/subm12.png";
+  static const String mthSubM13 = "assets/images/mathematics/subtraction/subm13.png";
+  static const String mthSubM14 = "assets/images/mathematics/subtraction/subm14.png";
+
+  //   Math Subtraction
+  static const String mthSubQ1 = "assets/images/mathematics/subtraction/subq1.png";
+  static const String mthSubQ2 = "assets/images/mathematics/subtraction/subq2.png";
+  static const String mthSubQ3 = "assets/images/mathematics/subtraction/subq3.png";
+  static const String mthSubQ4 = "assets/images/mathematics/subtraction/subq4.png";
+  static const String mthSubQ5 = "assets/images/mathematics/subtraction/subq5.png";
+  static const String mthSubQ6 = "assets/images/mathematics/subtraction/subq6.png";
+  static const String mthSubQ7 = "assets/images/mathematics/subtraction/subq7.png";
+  static const String mthSubQ8 = "assets/images/mathematics/subtraction/subq8.png";
+  static const String mthSubQ9 = "assets/images/mathematics/subtraction/subq9.png";
+  static const String mthSubQ10 = "assets/images/mathematics/subtraction/subq10.png";
+  static const String mthSubQ11 = "assets/images/mathematics/subtraction/subq11.png";
+  static const String mthSubQ12 = "assets/images/mathematics/subtraction/subq12.png";
+  static const String mthSubQ13 = "assets/images/mathematics/subtraction/subq13.png";
+  static const String mthSubQ14 = "assets/images/mathematics/subtraction/subq14.png";
 }
