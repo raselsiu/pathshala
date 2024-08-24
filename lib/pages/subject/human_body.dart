@@ -15,8 +15,9 @@ class HumanBodyPage extends StatefulWidget {
 class _HumanBodyPageState extends State<HumanBodyPage> {
   @override
   Widget build(BuildContext context) {
-    var isLandscape =
-        MediaQuery.of(context).orientation == Orientation.landscape;
+    var isLandscape = MediaQuery.of(context).orientation == Orientation.landscape;
+    double screenHeight = MediaQuery.of(context).size.height;
+    double screenWidth = MediaQuery.of(context).size.width;
 
     return Scaffold(
         backgroundColor: const Color(0xffffffff),

@@ -440,7 +440,7 @@ class ImageConstant {
   static const String num99 = "assets/images/mathematics/numbers/99.png";
   static const String num100 = "assets/images/mathematics/numbers/100.png";
 
-//   Math Addition
+//   Math Idea of Addition
   static const String mthAdd1 = "assets/images/mathematics/addition/1.png";
   static const String mthAdd2 = "assets/images/mathematics/addition/2.png";
   static const String mthAdd3 = "assets/images/mathematics/addition/3.png";
@@ -451,4 +451,38 @@ class ImageConstant {
   static const String mthAdd8 = "assets/images/mathematics/addition/8.png";
   static const String mthAdd9 = "assets/images/mathematics/addition/9.png";
   static const String mthAdd10 = "assets/images/mathematics/addition/10.png";
+
+//   Math Addition
+  static const String mthAddition1 = "assets/images/mathematics/addition/add1.png";
+  static const String mthAddition2 = "assets/images/mathematics/addition/add2.png";
+  static const String mthAddition3 = "assets/images/mathematics/addition/add3.png";
+  static const String mthAddition4 = "assets/images/mathematics/addition/add4.png";
+  static const String mthAddition5 = "assets/images/mathematics/addition/add5.png";
+  static const String mthAddition6 = "assets/images/mathematics/addition/add6.png";
+  static const String mthAddition7 = "assets/images/mathematics/addition/add7.png";
+  static const String mthAddition8 = "assets/images/mathematics/addition/add8.png";
+
+//   Math Addition Vertical
+  static const String mthAddV1 = "assets/images/mathematics/addition/addv1.png";
+  static const String mthAddV2 = "assets/images/mathematics/addition/addv2.png";
+  static const String mthAddV3 = "assets/images/mathematics/addition/addv3.png";
+  static const String mthAddV4 = "assets/images/mathematics/addition/addv4.png";
+  static const String mthAddV5 = "assets/images/mathematics/addition/addv5.png";
+  static const String mthAddV6 = "assets/images/mathematics/addition/addv6.png";
+
+  //   Math Addition practice
+  static const String mthAddQ1 = "assets/images/mathematics/addition/addq1.png";
+  static const String mthAddQ2 = "assets/images/mathematics/addition/addq2.png";
+  static const String mthAddQ3 = "assets/images/mathematics/addition/addq3.png";
+  static const String mthAddQ4 = "assets/images/mathematics/addition/addq4.png";
+  static const String mthAddQ5 = "assets/images/mathematics/addition/addq5.png";
+  static const String mthAddQ6 = "assets/images/mathematics/addition/addq6.png";
+
+  //   Math Addition practice
+  static const String mthAddQV1 = "assets/images/mathematics/addition/addqv1.png";
+  static const String mthAddQV2 = "assets/images/mathematics/addition/addqv2.png";
+  static const String mthAddQV3 = "assets/images/mathematics/addition/addqv3.png";
+  static const String mthAddQV4 = "assets/images/mathematics/addition/addqv4.png";
+  static const String mthAddQV5 = "assets/images/mathematics/addition/addqv5.png";
+  static const String mthAddQV6 = "assets/images/mathematics/addition/addqv6.png";
 }

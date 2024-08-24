@@ -8,6 +8,10 @@ class MathAddition extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var isLandscape = MediaQuery.of(context).orientation == Orientation.landscape;
+    double screenHeight = MediaQuery.of(context).size.height;
+    double screenWidth = MediaQuery.of(context).size.width;
+
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -24,27 +28,54 @@ class MathAddition extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.only(left: 16.0, top: 16.0),
-              child: Row(
-                children: [
-                  Container(
-                    height: 25,
-                    width: 8,
-                    color: Colors.pinkAccent,
+            const SizedBox(height: 25),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Container(
+                  margin: const EdgeInsets.only(left: 16.0),
+                  padding: const EdgeInsets.only(left: 10.0, right: 30.0, top: 5.0, bottom: 5.0),
+                  color: const Color(0xffe3e0e0),
+                  child: Row(
+                    children: [
+                      Container(
+                        height: 25,
+                        width: 8,
+                        color: const Color(0xff000000),
+                      ),
+                      const SizedBox(width: 10),
+                      const Text(
+                        'যোগের ধারনা',
+                        style: TextStyle(
+                            fontFamily: StringConstants.skBishal,
+                            fontSize: 25,
+                            color: Color(0xffd3086e)),
+                      ),
+                    ],
                   ),
-                  const SizedBox(width: 10),
-                  const Text(
-                    'যোগের ধারনা',
-                    style: TextStyle(
-                        fontFamily: StringConstants.skBishal, fontSize: 25, color: Colors.black),
-                  ),
-                ],
-              ),
+                )
+              ],
             ),
             StaggeredGrid.count(
               crossAxisCount: 1,
               children: [
+                StaggeredGridTile.count(
+                  crossAxisCellCount: 1,
+                  mainAxisCellCount: 1,
+                  child: GestureDetector(
+                    onTap: () => {},
+                    child: Padding(
+                      padding: const EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage(ImageConstant.mthAdd1),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
                 Container(
                   margin: const EdgeInsets.only(top: 20),
                   height: 120,
@@ -135,8 +166,180 @@ class MathAddition extends StatelessWidget {
                     ),
                   ),
                 ),
+                const SizedBox(height: 20),
               ],
-            )
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Container(
+                  margin: const EdgeInsets.only(left: 16.0),
+                  padding: const EdgeInsets.only(left: 10.0, right: 40.0, top: 5.0, bottom: 5.0),
+                  color: const Color(0xffe3e0e0),
+                  child: Row(
+                    children: [
+                      Container(
+                        height: 25,
+                        width: 8,
+                        color: const Color(0xff000000),
+                      ),
+                      const SizedBox(width: 10),
+                      const Text(
+                        'যোগ করি',
+                        style: TextStyle(
+                          fontFamily: StringConstants.skBishal,
+                          fontSize: 25,
+                          color: Color(0xffd3086e),
+                        ),
+                      ),
+                    ],
+                  ),
+                )
+              ],
+            ),
+            const SizedBox(height: 25),
+            StaggeredGrid.count(
+              crossAxisCount: 2,
+              children: [
+                StaggeredGridTile.count(
+                  crossAxisCellCount: 1,
+                  mainAxisCellCount: 1,
+                  child: GestureDetector(
+                    onTap: () => {},
+                    child: Padding(
+                      padding: const EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage(ImageConstant.mthAddition1),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                StaggeredGridTile.count(
+                  crossAxisCellCount: 1,
+                  mainAxisCellCount: 1,
+                  child: GestureDetector(
+                    onTap: () => {},
+                    child: Padding(
+                      padding: const EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage(ImageConstant.mthAddition2),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                StaggeredGridTile.count(
+                  crossAxisCellCount: 1,
+                  mainAxisCellCount: 1,
+                  child: GestureDetector(
+                    onTap: () => {},
+                    child: Padding(
+                      padding: const EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage(ImageConstant.mthAddition3),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                StaggeredGridTile.count(
+                  crossAxisCellCount: 1,
+                  mainAxisCellCount: 1,
+                  child: GestureDetector(
+                    onTap: () => {},
+                    child: Padding(
+                      padding: const EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage(ImageConstant.mthAddition4),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                StaggeredGridTile.count(
+                  crossAxisCellCount: 1,
+                  mainAxisCellCount: 1,
+                  child: GestureDetector(
+                    onTap: () => {},
+                    child: Padding(
+                      padding: const EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage(ImageConstant.mthAddition5),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                StaggeredGridTile.count(
+                  crossAxisCellCount: 1,
+                  mainAxisCellCount: 1,
+                  child: GestureDetector(
+                    onTap: () => {},
+                    child: Padding(
+                      padding: const EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage(ImageConstant.mthAddition6),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                StaggeredGridTile.count(
+                  crossAxisCellCount: 1,
+                  mainAxisCellCount: 1,
+                  child: GestureDetector(
+                    onTap: () => {},
+                    child: Padding(
+                      padding: const EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage(ImageConstant.mthAddition7),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                StaggeredGridTile.count(
+                  crossAxisCellCount: 1,
+                  mainAxisCellCount: 1,
+                  child: GestureDetector(
+                    onTap: () => {},
+                    child: Padding(
+                      padding: const EdgeInsets.all(10.0),
+                      child: Container(
+                        decoration: const BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage(ImageConstant.mthAddition8),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 20),
+              ],
+            ),
           ],
         ),
       ),
