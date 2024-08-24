@@ -175,7 +175,7 @@ class MathOddEven extends StatelessWidget {
                     height: 30,
                     width: 10,
                     decoration: BoxDecoration(
-                      color: Color(0xffe80553),
+                      color: const Color(0xff8aef1f),
                       borderRadius: BorderRadius.circular(3),
                     ),
                   ),
@@ -183,7 +183,7 @@ class MathOddEven extends StatelessWidget {
                   const Text(
                     'বিজোড় সংখ্যা (১-৪০)',
                     style: TextStyle(
-                      color: Color(0xffea145a),
+                      color: Color(0xff8aef1f),
                       fontFamily: StringConstants.skBishal,
                       fontSize: 25,
                     ),
