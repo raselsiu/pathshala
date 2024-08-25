@@ -3,8 +3,8 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sunamonir_pathshala/utils/image_string/image_constant.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
 
-class MathMultiplicationLearning extends StatelessWidget {
-  const MathMultiplicationLearning({super.key});
+class MathDivisionLearning extends StatelessWidget {
+  const MathDivisionLearning({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,13 +16,13 @@ class MathMultiplicationLearning extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text(
-          'গুণ করা শিখি',
+          'ভাগ করা শিখি',
           style: TextStyle(
             color: Colors.white,
             fontFamily: StringConstants.skBishal,
           ),
         ),
-        backgroundColor: const Color(0xff094d85),
+        backgroundColor: const Color(0xff051e33),
         iconTheme: const IconThemeData(color: Colors.white),
       ),
       body: SingleChildScrollView(
@@ -45,7 +45,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       ),
                       const SizedBox(width: 10),
                       const Text(
-                        'ছবির মাধ্যমে গুণের ধারনা',
+                        'ছবির মাধ্যমে ভাগের ধারনা',
                         style: TextStyle(
                           fontFamily: StringConstants.skBishal,
                           fontSize: 22,
@@ -65,7 +65,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                   height: 120,
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage(ImageConstant.mthMultiA1),
+                      image: AssetImage(ImageConstant.mathDivA7),
                     ),
                   ),
                 ),
@@ -74,7 +74,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                   height: 120,
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage(ImageConstant.mthMultiA2),
+                      image: AssetImage(ImageConstant.mathDivA2),
                     ),
                   ),
                 ),
@@ -83,7 +83,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                   height: 120,
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage(ImageConstant.mthMultiA3),
+                      image: AssetImage(ImageConstant.mathDivA3),
                     ),
                   ),
                 ),
@@ -92,7 +92,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                   height: 120,
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage(ImageConstant.mthMultiA4),
+                      image: AssetImage(ImageConstant.mathDivA4),
                     ),
                   ),
                 ),
@@ -101,7 +101,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                   height: 120,
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage(ImageConstant.mthMultiA5),
+                      image: AssetImage(ImageConstant.mathDivA5),
                     ),
                   ),
                 ),
@@ -110,7 +110,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                   height: 120,
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage(ImageConstant.mthMultiA6),
+                      image: AssetImage(ImageConstant.mathDivA6),
                     ),
                   ),
                 ),
@@ -119,7 +119,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                   height: 120,
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage(ImageConstant.mthMultiA7),
+                      image: AssetImage(ImageConstant.mathDivA1),
                     ),
                   ),
                 ),
@@ -143,7 +143,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       ),
                       const SizedBox(width: 10),
                       const Text(
-                        'গুণ করা শিখি',
+                        'ভাগ করি',
                         style: TextStyle(
                           fontFamily: StringConstants.skBishal,
                           fontSize: 30,
@@ -170,7 +170,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiB8),
+                            image: AssetImage(ImageConstant.mthDivB8),
                           ),
                         ),
                       ),
@@ -187,7 +187,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiB1),
+                            image: AssetImage(ImageConstant.mthDivB1),
                           ),
                         ),
                       ),
@@ -204,7 +204,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiB2),
+                            image: AssetImage(ImageConstant.mthDivB2),
                           ),
                         ),
                       ),
@@ -221,7 +221,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiB3),
+                            image: AssetImage(ImageConstant.mthDivB3),
                           ),
                         ),
                       ),
@@ -238,7 +238,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiB4),
+                            image: AssetImage(ImageConstant.mthDivB4),
                           ),
                         ),
                       ),
@@ -255,7 +255,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiB5),
+                            image: AssetImage(ImageConstant.mthDivB5),
                           ),
                         ),
                       ),
@@ -272,7 +272,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiB6),
+                            image: AssetImage(ImageConstant.mthDivB6),
                           ),
                         ),
                       ),
@@ -289,7 +289,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiB7),
+                            image: AssetImage(ImageConstant.mthDivB7),
                           ),
                         ),
                       ),
@@ -319,7 +319,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiC1),
+                            image: AssetImage(ImageConstant.mthDivC1),
                           ),
                         ),
                       ),
@@ -336,7 +336,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiC2),
+                            image: AssetImage(ImageConstant.mthDivC2),
                           ),
                         ),
                       ),
@@ -353,7 +353,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiC3),
+                            image: AssetImage(ImageConstant.mthDivC3),
                           ),
                         ),
                       ),
@@ -370,7 +370,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiC4),
+                            image: AssetImage(ImageConstant.mthDivC4),
                           ),
                         ),
                       ),
@@ -387,7 +387,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiC5),
+                            image: AssetImage(ImageConstant.mthDivC5),
                           ),
                         ),
                       ),
@@ -404,7 +404,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiC6),
+                            image: AssetImage(ImageConstant.mthDivC6),
                           ),
                         ),
                       ),
@@ -421,7 +421,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiC7),
+                            image: AssetImage(ImageConstant.mthDivC7),
                           ),
                         ),
                       ),
@@ -438,7 +438,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiC8),
+                            image: AssetImage(ImageConstant.mthDivC8),
                           ),
                         ),
                       ),
@@ -490,7 +490,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiD1),
+                            image: AssetImage(ImageConstant.mthDivD1),
                           ),
                         ),
                       ),
@@ -507,7 +507,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiD2),
+                            image: AssetImage(ImageConstant.mthDivD2),
                           ),
                         ),
                       ),
@@ -524,7 +524,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiD3),
+                            image: AssetImage(ImageConstant.mthDivD3),
                           ),
                         ),
                       ),
@@ -541,7 +541,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiD4),
+                            image: AssetImage(ImageConstant.mthDivD4),
                           ),
                         ),
                       ),
@@ -558,7 +558,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiD5),
+                            image: AssetImage(ImageConstant.mthDivD5),
                           ),
                         ),
                       ),
@@ -575,7 +575,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiD6),
+                            image: AssetImage(ImageConstant.mthDivD6),
                           ),
                         ),
                       ),
@@ -605,7 +605,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiE1),
+                            image: AssetImage(ImageConstant.mthDivE1),
                           ),
                         ),
                       ),
@@ -622,7 +622,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiE2),
+                            image: AssetImage(ImageConstant.mthDivE2),
                           ),
                         ),
                       ),
@@ -639,7 +639,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiE3),
+                            image: AssetImage(ImageConstant.mthDivE3),
                           ),
                         ),
                       ),
@@ -656,7 +656,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiE4),
+                            image: AssetImage(ImageConstant.mthDivE4),
                           ),
                         ),
                       ),
@@ -673,7 +673,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiE5),
+                            image: AssetImage(ImageConstant.mthDivE5),
                           ),
                         ),
                       ),
@@ -690,7 +690,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiE6),
+                            image: AssetImage(ImageConstant.mthDivE6),
                           ),
                         ),
                       ),
@@ -707,7 +707,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiE7),
+                            image: AssetImage(ImageConstant.mthDivE7),
                           ),
                         ),
                       ),
@@ -724,41 +724,7 @@ class MathMultiplicationLearning extends StatelessWidget {
                       child: Container(
                         decoration: const BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiE8),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-                StaggeredGridTile.count(
-                  crossAxisCellCount: 2,
-                  mainAxisCellCount: 1,
-                  child: GestureDetector(
-                    onTap: () => {},
-                    child: Padding(
-                      padding: const EdgeInsets.all(10.0),
-                      child: Container(
-                        decoration: const BoxDecoration(
-                          image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiE9),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-                StaggeredGridTile.count(
-                  crossAxisCellCount: 2,
-                  mainAxisCellCount: 1,
-                  child: GestureDetector(
-                    onTap: () => {},
-                    child: Padding(
-                      padding: const EdgeInsets.all(10.0),
-                      child: Container(
-                        decoration: const BoxDecoration(
-                          image: DecorationImage(
-                            image: AssetImage(ImageConstant.mthMultiE10),
+                            image: AssetImage(ImageConstant.mthDivE8),
                           ),
                         ),
                       ),
