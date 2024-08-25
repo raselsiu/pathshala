@@ -4,6 +4,7 @@ import 'package:sunamonir_pathshala/components/mathematics_card.dart';
 import 'package:sunamonir_pathshala/pages/subject/human_body.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/math_numbers.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_add.dart';
+import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_multiplication_learning.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_odd_even.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_subtraction.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/multiplication_table.dart';
@@ -71,7 +72,7 @@ class _MathematicsPageState extends State<MathematicsPage> {
                       imagePath: ImageConstant.mthSubtraction,
                     ),
                     const MathematicsCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: MathMultiplicationLearning(),
                       imagePath: ImageConstant.mthMultiplication,
                     ),
                     const MathematicsCard(

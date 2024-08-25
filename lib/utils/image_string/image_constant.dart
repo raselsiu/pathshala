@@ -527,4 +527,49 @@ class ImageConstant {
   static const String mthSubQ12 = "assets/images/mathematics/subtraction/subq12.png";
   static const String mthSubQ13 = "assets/images/mathematics/subtraction/subq13.png";
   static const String mthSubQ14 = "assets/images/mathematics/subtraction/subq14.png";
+
+  //   Math Multiplication
+  static const String mthMultiA1 = "assets/images/mathematics/multiplication/a1.png";
+  static const String mthMultiA2 = "assets/images/mathematics/multiplication/a2.png";
+  static const String mthMultiA3 = "assets/images/mathematics/multiplication/a3.png";
+  static const String mthMultiA4 = "assets/images/mathematics/multiplication/a4.png";
+  static const String mthMultiA5 = "assets/images/mathematics/multiplication/a5.png";
+  static const String mthMultiA6 = "assets/images/mathematics/multiplication/a6.png";
+  static const String mthMultiA7 = "assets/images/mathematics/multiplication/a7.png";
+
+  static const String mthMultiB1 = "assets/images/mathematics/multiplication/b1.png";
+  static const String mthMultiB2 = "assets/images/mathematics/multiplication/b2.png";
+  static const String mthMultiB3 = "assets/images/mathematics/multiplication/b3.png";
+  static const String mthMultiB4 = "assets/images/mathematics/multiplication/b4.png";
+  static const String mthMultiB5 = "assets/images/mathematics/multiplication/b5.png";
+  static const String mthMultiB6 = "assets/images/mathematics/multiplication/b6.png";
+  static const String mthMultiB7 = "assets/images/mathematics/multiplication/b7.png";
+  static const String mthMultiB8 = "assets/images/mathematics/multiplication/b8.png";
+
+  static const String mthMultiC1 = "assets/images/mathematics/multiplication/c1.png";
+  static const String mthMultiC2 = "assets/images/mathematics/multiplication/c2.png";
+  static const String mthMultiC3 = "assets/images/mathematics/multiplication/c3.png";
+  static const String mthMultiC4 = "assets/images/mathematics/multiplication/c4.png";
+  static const String mthMultiC5 = "assets/images/mathematics/multiplication/c5.png";
+  static const String mthMultiC6 = "assets/images/mathematics/multiplication/c6.png";
+  static const String mthMultiC7 = "assets/images/mathematics/multiplication/c7.png";
+  static const String mthMultiC8 = "assets/images/mathematics/multiplication/c8.png";
+
+  static const String mthMultiD1 = "assets/images/mathematics/multiplication/d1.png";
+  static const String mthMultiD2 = "assets/images/mathematics/multiplication/d2.png";
+  static const String mthMultiD3 = "assets/images/mathematics/multiplication/d3.png";
+  static const String mthMultiD4 = "assets/images/mathematics/multiplication/d4.png";
+  static const String mthMultiD5 = "assets/images/mathematics/multiplication/d5.png";
+  static const String mthMultiD6 = "assets/images/mathematics/multiplication/d6.png";
+
+  static const String mthMultiE1 = "assets/images/mathematics/multiplication/e1.png";
+  static const String mthMultiE2 = "assets/images/mathematics/multiplication/e2.png";
+  static const String mthMultiE3 = "assets/images/mathematics/multiplication/e3.png";
+  static const String mthMultiE4 = "assets/images/mathematics/multiplication/e4.png";
+  static const String mthMultiE5 = "assets/images/mathematics/multiplication/e5.png";
+  static const String mthMultiE6 = "assets/images/mathematics/multiplication/e6.png";
+  static const String mthMultiE7 = "assets/images/mathematics/multiplication/e7.png";
+  static const String mthMultiE8 = "assets/images/mathematics/multiplication/e8.png";
+  static const String mthMultiE9 = "assets/images/mathematics/multiplication/e9.png";
+  static const String mthMultiE10 = "assets/images/mathematics/multiplication/e10.png";
 }

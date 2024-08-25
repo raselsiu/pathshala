@@ -34,6 +34,7 @@ flutter:
    - assets/images/mathematics/numbers/
    - assets/images/mathematics/addition/
    - assets/images/mathematics/subtraction/
+   - assets/images/mathematics/multiplication/
    - assets/images/human_body/png/
    - assets/images/english/png/
    - assets/images/general_knowledge/png/
