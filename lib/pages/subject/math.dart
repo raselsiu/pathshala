@@ -4,10 +4,16 @@ import 'package:sunamonir_pathshala/components/mathematics_card.dart';
 import 'package:sunamonir_pathshala/pages/subject/human_body.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/math_numbers.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_add.dart';
+import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_comapre.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_division_learning.dart';
+import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_kromobachok_songkha.dart';
+import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_manosanko.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_multiplication_learning.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_odd_even.dart';
+import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_sajiye_lekha.dart';
+import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_sotokiya.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_subtraction.dart';
+import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_sunnosthan_puron.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/multiplication_table.dart';
 import 'package:sunamonir_pathshala/utils/image_string/image_constant.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
@@ -85,27 +91,27 @@ class _MathematicsPageState extends State<MathematicsPage> {
                       imagePath: ImageConstant.mthGeometry,
                     ),
                     const MathematicsCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: MathManosangko(),
                       imagePath: ImageConstant.mthBackCounting,
                     ),
                     const MathematicsCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: MathSotokia(),
                       imagePath: ImageConstant.mthNumberSpelling,
                     ),
                     const MathematicsCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: MathSunnosthanPuron(),
                       imagePath: ImageConstant.mthFillInBlank,
                     ),
                     const MathematicsCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: MathSajiyeLekha(),
                       imagePath: ImageConstant.mthWriteAccordingly,
                     ),
                     const MathematicsCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: MathCompare(),
                       imagePath: ImageConstant.mthCompare,
                     ),
                     const MathematicsCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: MathKromobachokSongkha(),
                       imagePath: ImageConstant.mthStepByStepCounting,
                     ),
                   ],
