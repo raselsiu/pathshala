@@ -618,4 +618,15 @@ class ImageConstant {
   static const String mthDivE6 = "assets/images/mathematics/division/e6.png";
   static const String mthDivE7 = "assets/images/mathematics/division/e7.png";
   static const String mthDivE8 = "assets/images/mathematics/division/e8.png";
+
+//   Math Compare
+  static const String mthCompare1 = "assets/images/mathematics/compare/a.png";
+  static const String mthCompare2 = "assets/images/mathematics/compare/b.png";
+  static const String mthCompare3 = "assets/images/mathematics/compare/c.png";
+  static const String mthCompare4 = "assets/images/mathematics/compare/d.png";
+  static const String mthCompare5 = "assets/images/mathematics/compare/e.png";
+  static const String mthCompare6 = "assets/images/mathematics/compare/f.png";
+  static const String mthCompare7 = "assets/images/mathematics/compare/g.png";
+  static const String mthCompare8 = "assets/images/mathematics/compare/h.png";
+  static const String mthCompare9 = "assets/images/mathematics/compare/i.png";
 }

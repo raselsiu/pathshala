@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_comapre.dart';
+import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_sunnosthan_puron.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
 
 void main() async {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MathCompare(),
+      home: const MathSunnosthanPuron(),
       debugShowCheckedModeBanner: false,
     );
   }
