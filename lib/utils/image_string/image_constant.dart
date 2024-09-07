@@ -634,4 +634,11 @@ class ImageConstant {
   static const String mthSerial1 = "assets/images/mathematics/serial/s1.png";
   static const String mthSerial2 = "assets/images/mathematics/serial/s2.png";
   static const String mthSerial3 = "assets/images/mathematics/serial/s3.png";
+
+//   Math Hisab Porimap
+  static const String mthHisab1 = "assets/images/mathematics/akok/1.png";
+  static const String mthHisab2 = "assets/images/mathematics/akok/2.png";
+  static const String mthHisab3 = "assets/images/mathematics/akok/3.png";
+  static const String mthHisab4 = "assets/images/mathematics/akok/4.png";
+  static const String mthHisab5 = "assets/images/mathematics/akok/5.png";
 }

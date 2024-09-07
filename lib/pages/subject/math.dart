@@ -6,11 +6,11 @@ import 'package:sunamonir_pathshala/pages/subject/mathametics/math_numbers.dart'
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_add.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_comapre.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_division_learning.dart';
+import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_hisab_porimap.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_kromobachok_songkha.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_manosanko.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_multiplication_learning.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_odd_even.dart';
-import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_sajiye_lekha.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_sotokiya.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_subtraction.dart';
 import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_sunnosthan_puron.dart';
@@ -103,7 +103,7 @@ class _MathematicsPageState extends State<MathematicsPage> {
                       imagePath: ImageConstant.mthFillInBlank,
                     ),
                     const MathematicsCard(
-                      pageLocation: MathSajiyeLekha(),
+                      pageLocation: MathHisabPorimap(),
                       imagePath: ImageConstant.mthWriteAccordingly,
                     ),
                     const MathematicsCard(

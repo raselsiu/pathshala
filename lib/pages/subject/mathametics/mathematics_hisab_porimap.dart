@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:sunamonir_pathshala/utils/image_string/image_constant.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
 
-class MathKromobachokSongkha extends StatelessWidget {
-  const MathKromobachokSongkha({super.key});
+class MathHisabPorimap extends StatelessWidget {
+  const MathHisabPorimap({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,21 +14,17 @@ class MathKromobachokSongkha extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'ক্রমবাচক সংখ্যা',
-          style: TextStyle(
-            color: Colors.pink,
-            fontFamily: StringConstants.skBishal,
-          ),
+          'পরিমাপ ও একক',
+          style: TextStyle(fontFamily: StringConstants.skBishal, color: Colors.white),
         ),
-        iconTheme: const IconThemeData(color: Colors.pink),
-        backgroundColor: const Color(0xffffd800),
+        backgroundColor: const Color(0xff0e4d81),
       ),
       body: SingleChildScrollView(
         child: Column(
           children: [
-            const SizedBox(height: 15),
-            Row(
+            Column(
               children: [
+                const SizedBox(height: 10),
                 Container(
                   alignment: Alignment.center,
                   padding: const EdgeInsets.only(left: 16.0, right: 0.0, top: 5.0, bottom: 5.0),
@@ -42,7 +38,7 @@ class MathKromobachokSongkha extends StatelessWidget {
                         width: 25,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(5),
-                          color: const Color(0xff033f70),
+                          color: const Color(0xff550ad9),
                         ),
                         child: const Text(
                           '#',
@@ -59,19 +55,40 @@ class MathKromobachokSongkha extends StatelessWidget {
                           width: screenWidth * 0.85,
                           child: RichText(
                             text: const TextSpan(
-                              text: 'ছোট থেকে বড় সংখ্যা ঃ \n ',
+                              text: 'C.G.S পদ্ধতি ঃ \n ',
                               style: TextStyle(
-                                color: Color(0xff033f70),
+                                color: Color(0xff550ad9),
                                 fontSize: 20,
                                 fontFamily: StringConstants.skBishal,
                                 fontWeight: FontWeight.w100,
                               ),
                               children: <TextSpan>[
                                 TextSpan(
-                                  text: '০, ১, ২, ৩, ৪, ৫, ৬, ৭, ৮, ৯, ১০',
+                                  text:
+                                      'C.G.S পদ্ধতির পূর্ণরুপ (সেন্টিমিটার গ্রাম সেকেন্ড) - (Centimetre,  Gram, Second System )\n',
+                                  style: TextStyle(
+                                    fontFamily: StringConstants.bnFontFamily,
+                                    fontSize: 20,
+                                    color: Color(0xff040941),
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: 'এ পদ্ধতিতে- \n',
                                   style: TextStyle(
                                     fontFamily: StringConstants.bnFontFamily,
                                     fontSize: 22,
+                                    fontWeight: FontWeight.bold,
+                                    color: Color(0xff550ad9),
+                                    height: 2,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text:
+                                      'দৈর্ঘ্যের এককঃ সেন্টিমিটার \nভরের এককঃ গ্রাম  \nসময়ের এককঃ সেকেন্ড',
+                                  style: TextStyle(
+                                    fontFamily: StringConstants.skBishal,
+                                    fontSize: 22,
+                                    color: Color(0xff550ad9),
                                   ),
                                 ),
                               ],
@@ -79,169 +96,7 @@ class MathKromobachokSongkha extends StatelessWidget {
                           )),
                     ],
                   ),
-                )
-              ],
-            ),
-            const SizedBox(height: 10),
-            Row(
-              children: [
-                Container(
-                  alignment: Alignment.center,
-                  padding: const EdgeInsets.only(left: 16.0, right: 0.0, top: 5.0, bottom: 5.0),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: [
-                      Container(
-                        margin: const EdgeInsets.only(top: 3),
-                        height: 25,
-                        width: 25,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(5),
-                          color: const Color(0xff88077e),
-                        ),
-                        child: const Text(
-                          '#',
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 18,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(width: 10),
-                      SizedBox(
-                          width: screenWidth * 0.85,
-                          child: RichText(
-                            text: const TextSpan(
-                              text: 'বড় থেকে ছোট সংখ্যা ঃ \n ',
-                              style: TextStyle(
-                                color: const Color(0xff88077e),
-                                fontSize: 20,
-                                fontFamily: StringConstants.skBishal,
-                                fontWeight: FontWeight.w100,
-                              ),
-                              children: <TextSpan>[
-                                TextSpan(
-                                  text: '১০, ৯, ৮, ৭, ৬, ৫, ৪, ৩, ২, ১, ০',
-                                  style: TextStyle(
-                                    fontFamily: StringConstants.bnFontFamily,
-                                    fontSize: 22,
-                                  ),
-                                ),
-                              ],
-                            ),
-                          )),
-                    ],
-                  ),
-                )
-              ],
-            ),
-            const SizedBox(height: 15),
-            Row(
-              children: [
-                Container(
-                  alignment: Alignment.center,
-                  padding: const EdgeInsets.only(left: 16.0, right: 0.0, top: 5.0, bottom: 5.0),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: [
-                      Container(
-                        margin: const EdgeInsets.only(top: 3),
-                        height: 25,
-                        width: 25,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(5),
-                          color: const Color(0xff23810e),
-                        ),
-                        child: const Text(
-                          '#',
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 18,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(width: 10),
-                      SizedBox(
-                          width: screenWidth * 0.85,
-                          child: RichText(
-                            text: const TextSpan(
-                              text: 'দুইটি সংখ্যা তুলনা করে বেশি বা কম সংখ্যা লিখি',
-                              style: TextStyle(
-                                color: Color(0xff23810e),
-                                fontSize: 20,
-                                fontFamily: StringConstants.skBishal,
-                                fontWeight: FontWeight.w100,
-                              ),
-                            ),
-                          )),
-                    ],
-                  ),
-                )
-              ],
-            ),
-            Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Image.asset(ImageConstant.mthSerial3),
-            ),
-            Row(
-              children: [
-                Container(
-                  alignment: Alignment.center,
-                  padding: const EdgeInsets.only(left: 16.0, right: 0.0, top: 5.0, bottom: 5.0),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: [
-                      Container(
-                        margin: const EdgeInsets.only(top: 3),
-                        height: 25,
-                        width: 25,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(5),
-                          color: const Color(0xff04518f),
-                        ),
-                        child: const Text(
-                          '#',
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 18,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(width: 10),
-                      SizedBox(
-                          width: screenWidth * 0.85,
-                          child: RichText(
-                            text: const TextSpan(
-                              text: 'ক্রমের ধারণাঃ কম থেকে বেশি',
-                              style: TextStyle(
-                                color: Color(0xff04518f),
-                                fontSize: 20,
-                                fontFamily: StringConstants.skBishal,
-                                fontWeight: FontWeight.w100,
-                              ),
-                            ),
-                          )),
-                    ],
-                  ),
-                )
-              ],
-            ),
-            Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Image.asset(ImageConstant.mthSerial1),
-            ),
-            const SizedBox(height: 15),
-            Row(
-              children: [
+                ),
                 Container(
                   alignment: Alignment.center,
                   padding: const EdgeInsets.only(left: 16.0, right: 0.0, top: 5.0, bottom: 5.0),
@@ -272,26 +127,142 @@ class MathKromobachokSongkha extends StatelessWidget {
                           width: screenWidth * 0.85,
                           child: RichText(
                             text: const TextSpan(
-                              text: 'ক্রমের ধারণাঃ বেশি থেকে কম',
+                              text: 'M.K.S পদ্ধতি ঃ \n ',
                               style: TextStyle(
-                                color: const Color(0xffb12a7d),
+                                color: Colors.purple,
                                 fontSize: 20,
                                 fontFamily: StringConstants.skBishal,
                                 fontWeight: FontWeight.w100,
                               ),
+                              children: <TextSpan>[
+                                TextSpan(
+                                  text:
+                                      'M.K.S পদ্ধতির পূর্ণরুপ (মিটার কিলোগ্রাম সেকেন্ড)  ( Metre, Kilogram, Second System )\n',
+                                  style: TextStyle(
+                                    fontFamily: StringConstants.bnFontFamily,
+                                    fontSize: 20,
+                                    color: Color(0xff100333),
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: 'এ পদ্ধতিতে- \n',
+                                  style: TextStyle(
+                                    fontFamily: StringConstants.bnFontFamily,
+                                    fontSize: 22,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.purple,
+                                    height: 2,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text:
+                                      'দৈর্ঘ্যের একক : মিটার  \nভরের এককঃ কিলোগ্রাম   \nসময়ের এককঃ সেকেন্ড',
+                                  style: TextStyle(
+                                    fontFamily: StringConstants.bnFontFamily,
+                                    fontSize: 22,
+                                    color: Color(0xffb12a7d),
+                                  ),
+                                ),
+                              ],
                             ),
                           )),
                     ],
                   ),
-                )
+                ),
+                Container(
+                  alignment: Alignment.center,
+                  padding: const EdgeInsets.only(left: 16.0, right: 0.0, top: 5.0, bottom: 5.0),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        margin: const EdgeInsets.only(top: 3),
+                        height: 25,
+                        width: 25,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(5),
+                          color: const Color(0xff077568),
+                        ),
+                        child: const Text(
+                          '#',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      SizedBox(
+                          width: screenWidth * 0.85,
+                          child: RichText(
+                            text: const TextSpan(
+                              text: 'F.P.S পদ্ধতি ঃ \n ',
+                              style: TextStyle(
+                                color: const Color(0xff077568),
+                                fontSize: 20,
+                                fontFamily: StringConstants.skBishal,
+                                fontWeight: FontWeight.w100,
+                              ),
+                              children: <TextSpan>[
+                                TextSpan(
+                                  text:
+                                      'F.P.S - পদ্ধতির পূর্ণরুপ ফুট (পাউণ্ড সেকেন্ড পদ্ধতি) - (Foot, Pound, Second System )\n ',
+                                  style: TextStyle(
+                                    fontFamily: StringConstants.bnFontFamily,
+                                    fontSize: 20,
+                                    color: const Color(0xff250356),
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: 'এ পদ্ধতিতে- \n',
+                                  style: TextStyle(
+                                    fontFamily: StringConstants.bnFontFamily,
+                                    fontSize: 22,
+                                    fontWeight: FontWeight.bold,
+                                    color: Color(0xff037a6c),
+                                    height: 2,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text:
+                                      'দৈর্ঘ্যের একক : ফুট   \nভরের এককঃ পাউন্ড    \nসময়ের এককঃ সেকেন্ড   ',
+                                  style: TextStyle(
+                                    fontFamily: StringConstants.bnFontFamily,
+                                    fontSize: 22,
+                                    color: Color(0xff077568),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          )),
+                    ],
+                  ),
+                ),
               ],
             ),
             Padding(
               padding: const EdgeInsets.all(16.0),
-              child: Image.asset(ImageConstant.mthSerial2),
+              child: Image.asset(ImageConstant.mthHisab1),
             ),
-            const SizedBox(height: 30),
-            const SizedBox(height: 50),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Image.asset(ImageConstant.mthHisab2),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Image.asset(ImageConstant.mthHisab3),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Image.asset(ImageConstant.mthHisab4),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Image.asset(ImageConstant.mthHisab5),
+            ),
           ],
         ),
       ),

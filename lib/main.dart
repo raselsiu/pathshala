@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_kromobachok_songkha.dart';
+import 'package:sunamonir_pathshala/pages/subject/mathametics/mathematics_hisab_porimap.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
 
 void main() async {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MathKromobachokSongkha(),
+      home: const MathHisabPorimap(),
       debugShowCheckedModeBanner: false,
     );
   }
