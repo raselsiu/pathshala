@@ -84,9 +84,9 @@ class MathHisabPorimap extends StatelessWidget {
                                 ),
                                 TextSpan(
                                   text:
-                                      'দৈর্ঘ্যের এককঃ সেন্টিমিটার \nভরের এককঃ গ্রাম  \nসময়ের এককঃ সেকেন্ড',
+                                      'দৈর্ঘ্যের এককঃ সেন্টিমিটার\nভরের এককঃ গ্রাম\nসময়ের এককঃ সেকেন্ড',
                                   style: TextStyle(
-                                    fontFamily: StringConstants.skBishal,
+                                    fontFamily: StringConstants.bnFontFamily,
                                     fontSize: 22,
                                     color: Color(0xff550ad9),
                                   ),

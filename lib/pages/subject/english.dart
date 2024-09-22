@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sunamonir_pathshala/components/english_card.dart';
+import 'package:sunamonir_pathshala/pages/subject/english/alphabet.dart';
 import 'package:sunamonir_pathshala/pages/subject/human_body.dart';
 import 'package:sunamonir_pathshala/utils/image_string/image_constant.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
@@ -15,8 +16,7 @@ class EnglishPage extends StatefulWidget {
 class _EnglishPageState extends State<EnglishPage> {
   @override
   Widget build(BuildContext context) {
-    var isLandscape =
-        MediaQuery.of(context).orientation == Orientation.landscape;
+    var isLandscape = MediaQuery.of(context).orientation == Orientation.landscape;
 
     return Scaffold(
         backgroundColor: const Color(0xffFFEFE8),
@@ -47,7 +47,7 @@ class _EnglishPageState extends State<EnglishPage> {
                   crossAxisSpacing: isLandscape ? 0 : 0,
                   children: const [
                     EnglishCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: EngAlphabet(),
                       imagePath: ImageConstant.engAlphabet,
                     ),
                     EnglishCard(

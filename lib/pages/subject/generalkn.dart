@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sunamonir_pathshala/components/general_knowledge_card.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/nationnal_anthem.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/rono_songit.dart';
 import 'package:sunamonir_pathshala/pages/subject/human_body.dart';
 import 'package:sunamonir_pathshala/utils/image_string/image_constant.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
@@ -15,8 +17,7 @@ class GeneralKnowledgePage extends StatefulWidget {
 class _GeneralKnowledgePageState extends State<GeneralKnowledgePage> {
   @override
   Widget build(BuildContext context) {
-    var isLandscape =
-        MediaQuery.of(context).orientation == Orientation.landscape;
+    var isLandscape = MediaQuery.of(context).orientation == Orientation.landscape;
 
     return Scaffold(
         backgroundColor: const Color(0xffFFEFE8),
@@ -47,11 +48,11 @@ class _GeneralKnowledgePageState extends State<GeneralKnowledgePage> {
                   crossAxisSpacing: isLandscape ? 20 : 15,
                   children: const [
                     GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: GKNationAnthem(),
                       imagePath: ImageConstant.gkSongit,
                     ),
                     GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: GKRonoSongit(),
                       imagePath: ImageConstant.gkRonSong,
                     ),
                     GeneralKnowledgeCard(

@@ -641,4 +641,38 @@ class ImageConstant {
   static const String mthHisab3 = "assets/images/mathematics/akok/3.png";
   static const String mthHisab4 = "assets/images/mathematics/akok/4.png";
   static const String mthHisab5 = "assets/images/mathematics/akok/5.png";
+
+//   National Anthem
+  static const String gkNationalAnthem = "assets/images/general_knowledge/jatio_songit.png";
+
+//   Arabic letter
+  static const String arabAlpha1 = "assets/images/arabic/alphabets/alif.png";
+  static const String arabAlpha2 = "assets/images/arabic/alphabets/ba.png";
+  static const String arabAlpha3 = "assets/images/arabic/alphabets/ta.png";
+  static const String arabAlpha4 = "assets/images/arabic/alphabets/sa.png";
+  static const String arabAlpha5 = "assets/images/arabic/alphabets/jim.png";
+  static const String arabAlpha6 = "assets/images/arabic/alphabets/ha.png";
+  static const String arabAlpha7 = "assets/images/arabic/alphabets/kha.png";
+  static const String arabAlpha8 = "assets/images/arabic/alphabets/dal.png";
+  static const String arabAlpha9 = "assets/images/arabic/alphabets/dzal.png";
+  static const String arabAlpha10 = "assets/images/arabic/alphabets/ra.png";
+  static const String arabAlpha11 = "assets/images/arabic/alphabets/za.png";
+  static const String arabAlpha12 = "assets/images/arabic/alphabets/sin.png";
+  static const String arabAlpha13 = "assets/images/arabic/alphabets/syin.png";
+  static const String arabAlpha14 = "assets/images/arabic/alphabets/shad.png";
+  static const String arabAlpha15 = "assets/images/arabic/alphabets/dhad.png";
+  static const String arabAlpha16 = "assets/images/arabic/alphabets/tha.png";
+  static const String arabAlpha17 = "assets/images/arabic/alphabets/zha.png";
+  static const String arabAlpha18 = "assets/images/arabic/alphabets/ain.png";
+  static const String arabAlpha19 = "assets/images/arabic/alphabets/ghain.png";
+  static const String arabAlpha20 = "assets/images/arabic/alphabets/fa.png";
+  static const String arabAlpha21 = "assets/images/arabic/alphabets/qaf.png";
+  static const String arabAlpha22 = "assets/images/arabic/alphabets/kaf.png";
+  static const String arabAlpha23 = "assets/images/arabic/alphabets/lam.png";
+  static const String arabAlpha24 = "assets/images/arabic/alphabets/mim.png";
+  static const String arabAlpha25 = "assets/images/arabic/alphabets/nun.png";
+  static const String arabAlpha26 = "assets/images/arabic/alphabets/waw.png";
+  static const String arabAlpha27 = "assets/images/arabic/alphabets/ha_a.png";
+  static const String arabAlpha28 = "assets/images/arabic/alphabets/hamza.png";
+  static const String arabAlpha29 = "assets/images/arabic/alphabets/ya.png";
 }

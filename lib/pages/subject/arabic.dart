@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:sunamonir_pathshala/pages/subject/arabic/ar_alphabet.dart';
 import 'package:sunamonir_pathshala/pages/subject/bangla/sorborno.dart';
 import 'package:sunamonir_pathshala/utils/image_string/image_constant.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
@@ -14,8 +15,7 @@ class ArabicContentPage extends StatefulWidget {
 class _ArabicContentPageState extends State<ArabicContentPage> {
   @override
   Widget build(BuildContext context) {
-    var isLandscape =
-        MediaQuery.of(context).orientation == Orientation.landscape;
+    var isLandscape = MediaQuery.of(context).orientation == Orientation.landscape;
 
     return Scaffold(
         backgroundColor: const Color(0xffFBF5F2),
@@ -51,7 +51,7 @@ class _ArabicContentPageState extends State<ArabicContentPage> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Sorborno(),
+                              builder: (context) => ArAlphabet(),
                             ),
                           )
                         },

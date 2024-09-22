@@ -42,6 +42,8 @@ flutter:
    - assets/images/human_body/png/
    - assets/images/english/png/
    - assets/images/general_knowledge/png/
+   - assets/images/general_knowledge/
+   - assets/images/arabic/alphabets/
 
 
   fonts:
