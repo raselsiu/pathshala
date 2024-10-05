@@ -44,6 +44,7 @@ flutter:
    - assets/images/general_knowledge/png/
    - assets/images/general_knowledge/
    - assets/images/arabic/alphabets/
+   - assets/images/arabic/surah_img/
 
 
   fonts:
@@ -59,6 +60,9 @@ flutter:
     - family: Lato
       fonts:
         - asset: 'assets/fonts/Lato-Regular.ttf'
+    - family: 'Uthmanic Script'
+      fonts:
+        - asset: 'assets/fonts/uthmanic_script.otf'
 
 
 #  fonts:

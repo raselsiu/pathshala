@@ -2,6 +2,7 @@ class StringConstants {
   static const String barTitle = 'ক্যাটাগরি';
   static const String barTitle2 = 'পাঠ্যক্রম তালিকা';
   static const String bnFontFamily = 'Nikosh';
+  static const String arabicFont = 'Uthmanic Script';
   static const String enFontFamily = 'Inter';
   static const String latoFontFamily = 'Lato';
   static const String skBishal = 'Li SK Bishal';
@@ -291,6 +292,10 @@ class StringConstants {
 
   ''';
 
+  static const String surahFatiha = '''
+  بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ ١ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ ٢ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ ٣ مَـٰلِكِ يَوْمِ ٱلدِّينِ ٤ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ٥ ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ ٦ صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ ٧
+  ''';
+
   // Multiplication 1
 
   static const String mOne1 = '১x১=১';
@@ -419,4 +424,11 @@ class StringConstants {
   static const String m10_8 = '২x৮=১৬';
   static const String m10_9 = '২x৯=১৮';
   static const String m10_10 = '২x১০=২০';
+
+  static const String surahTitle = 'রণ সংগীত';
+  static const String surahDescription = '''
+
+ 
+
+  ''';
 }

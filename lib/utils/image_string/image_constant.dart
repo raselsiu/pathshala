@@ -645,7 +645,22 @@ class ImageConstant {
 //   National Anthem
   static const String gkNationalAnthem = "assets/images/general_knowledge/jatio_songit.png";
 
+//   Surah Leading Icon
+
+  static const String surahLeadingIcon = "assets/images/arabic/quran.png";
+  static const String surahFatihaImg = "assets/images/arabic/surah_img/fatiha.png";
+  static const String surahIkhlasImg = "assets/images/arabic/surah_img/ikhlas.png";
+  static const String surahNasImg = "assets/images/arabic/surah_img/nas.png";
+  static const String surahKawtherImg = "assets/images/arabic/surah_img/kawther.png";
+  static const String surahKafirunImg = "assets/images/arabic/surah_img/kafirun.png";
+  static const String surahHumazaImg = "assets/images/arabic/surah_img/humaza.png";
+  static const String surahFilImg = "assets/images/arabic/surah_img/fil.png";
+  static const String surahFalaqImg = "assets/images/arabic/surah_img/falaq.png";
+  static const String surahAlamNashrahImg = "assets/images/arabic/surah_img/alam-nashrah.png";
+  static const String surahAlAsrImg = "assets/images/arabic/surah_img/al_asr.png";
+
 //   Arabic letter
+
   static const String arabAlpha1 = "assets/images/arabic/alphabets/alif.png";
   static const String arabAlpha2 = "assets/images/arabic/alphabets/ba.png";
   static const String arabAlpha3 = "assets/images/arabic/alphabets/ta.png";

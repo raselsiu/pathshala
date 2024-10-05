@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sunamonir_pathshala/pages/subject/arabic/ar_alphabet.dart';
+import 'package:sunamonir_pathshala/pages/subject/arabic/surah_page.dart';
 import 'package:sunamonir_pathshala/pages/subject/bangla/sorborno.dart';
 import 'package:sunamonir_pathshala/utils/image_string/image_constant.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
@@ -73,7 +74,7 @@ class _ArabicContentPageState extends State<ArabicContentPage> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => Sorborno(),
+                                builder: (context) => ArAlphabet(),
                               ))
                         },
                         child: Container(
@@ -94,7 +95,7 @@ class _ArabicContentPageState extends State<ArabicContentPage> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => Sorborno(),
+                                builder: (context) => const SurahPage(),
                               ))
                         },
                         child: Container(
