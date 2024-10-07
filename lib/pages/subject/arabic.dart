@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:sunamonir_pathshala/pages/subject/arabic/allahor_porichoy.dart';
 import 'package:sunamonir_pathshala/pages/subject/arabic/ar_alphabet.dart';
 import 'package:sunamonir_pathshala/pages/subject/arabic/surah_page.dart';
 import 'package:sunamonir_pathshala/pages/subject/bangla/sorborno.dart';
@@ -52,7 +53,7 @@ class _ArabicContentPageState extends State<ArabicContentPage> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => ArAlphabet(),
+                              builder: (context) => AllahorPorichoy(),
                             ),
                           )
                         },

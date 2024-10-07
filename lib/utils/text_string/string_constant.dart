@@ -1,4 +1,9 @@
 class StringConstants {
+  static const String allahIntro =
+      '''আল্লাহ্‌ ইসলামের মৌলিক বিশ্বাস অনুযায়ী একমাত্র স্রষ্টা এবং পালনকর্তা। তিনি অদ্বিতীয়, অদৃশ্য, এবং সর্বশক্তিমান।
+ইসলামে আল্লাহকে একক এবং সঙ্গীহীন স্রষ্টা হিসেবে মানা হয়,
+যিনি সকল জগতের সৃষ্টিকর্তা এবং নিয়ন্ত্রক। আল্লাহর পরিচয় নিম্নলিখিতভাবে সংক্ষেপে দেওয়া যায়: \n\n''';
+
   static const String barTitle = 'ক্যাটাগরি';
   static const String barTitle2 = 'পাঠ্যক্রম তালিকা';
   static const String bnFontFamily = 'Nikosh';
@@ -426,9 +431,4 @@ class StringConstants {
   static const String m10_10 = '২x১০=২০';
 
   static const String surahTitle = 'রণ সংগীত';
-  static const String surahDescription = '''
-
- 
-
-  ''';
 }
