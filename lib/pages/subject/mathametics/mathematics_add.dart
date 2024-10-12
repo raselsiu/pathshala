@@ -8,8 +8,6 @@ class MathAddition extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var isLandscape = MediaQuery.of(context).orientation == Orientation.landscape;
-    double screenHeight = MediaQuery.of(context).size.height;
     double screenWidth = MediaQuery.of(context).size.width;
 
     return Scaffold(

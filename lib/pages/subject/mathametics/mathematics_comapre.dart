@@ -18,8 +18,8 @@ class MathCompare extends StatelessWidget {
                 color: Colors.white,
                 fontFamily: StringConstants.skBishal,
               )),
-          backgroundColor: Color(0xff6e2373),
-          iconTheme: IconThemeData(color: Colors.white),
+          backgroundColor: const Color(0xff6e2373),
+          iconTheme: const IconThemeData(color: Colors.white),
         ),
         body: ListView(
           children: [

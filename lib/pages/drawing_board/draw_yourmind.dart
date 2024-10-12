@@ -1,7 +1,6 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:sunamonir_pathshala/utils/colors_code/color_constant.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
 
 class DrawYourMind extends StatefulWidget {

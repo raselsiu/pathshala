@@ -16,7 +16,7 @@ class AllahorPorichoy extends StatelessWidget {
           'আল্লাহর পরিচয়',
           style: TextStyle(color: Colors.white, fontFamily: StringConstants.skBishal),
         ),
-        backgroundColor: const Color(0xff0e4d81),
+        backgroundColor: const Color(0xff82008a),
       ),
       body: SingleChildScrollView(
           child: Column(
@@ -26,7 +26,12 @@ class AllahorPorichoy extends StatelessWidget {
               const SizedBox(height: 10),
               Container(
                 alignment: Alignment.center,
-                padding: const EdgeInsets.only(left: 5.0, right: 0.0, top: 5.0, bottom: 5.0),
+                padding: const EdgeInsets.only(
+                  left: 5.0,
+                  right: 0.0,
+                  top: 5.0,
+                  bottom: 5.0,
+                ),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -49,12 +54,11 @@ class AllahorPorichoy extends StatelessWidget {
                         ),
                       ),
                     ),
-                    const SizedBox(width: 10),
                     SizedBox(
                       width: screenWidth * 0.82,
                       child: RichText(
                         text: const TextSpan(
-                          text: 'আল্লাহর পরিচয় ঃ \n\n',
+                          text: '\u00A0\u00A0আল্লাহর পরিচয়ঃ \n\n',
                           style: TextStyle(
                             color: Colors.purple,
                             fontSize: 22,
@@ -78,6 +82,7 @@ class AllahorPorichoy extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 color: Colors.purple,
                                 height: 2,
+                                decoration: TextDecoration.underline,
                               ),
                             ),
                             TextSpan(
@@ -96,6 +101,7 @@ class AllahorPorichoy extends StatelessWidget {
                                 fontSize: 25,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.purple,
+                                decoration: TextDecoration.underline,
                               ),
                             ),
                             TextSpan(
@@ -114,6 +120,7 @@ class AllahorPorichoy extends StatelessWidget {
                                 fontSize: 25,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.purple,
+                                decoration: TextDecoration.underline,
                               ),
                             ),
                             TextSpan(
@@ -132,6 +139,7 @@ class AllahorPorichoy extends StatelessWidget {
                                 fontSize: 25,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.purple,
+                                decoration: TextDecoration.underline,
                               ),
                             ),
                             TextSpan(
@@ -150,6 +158,7 @@ class AllahorPorichoy extends StatelessWidget {
                                 fontSize: 25,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.purple,
+                                decoration: TextDecoration.underline,
                               ),
                             ),
                             TextSpan(
@@ -192,6 +201,7 @@ class AllahorPorichoy extends StatelessWidget {
                             fontSize: 22,
                             fontFamily: StringConstants.bnFontFamily,
                             fontWeight: FontWeight.w100,
+                            decoration: TextDecoration.underline,
                           ),
                         ),
                       ),
