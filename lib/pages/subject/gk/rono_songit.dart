@@ -14,7 +14,7 @@ class _GKRonoSongitState extends State<GKRonoSongit> {
     return Scaffold(
       appBar: AppBar(
         iconTheme: const IconThemeData(color: Colors.white),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: const Color(0xff037a6c),
         title: const Text(
           StringConstants.GKRonoSongitTitle,
           style: TextStyle(
@@ -34,7 +34,7 @@ class _GKRonoSongitState extends State<GKRonoSongit> {
                   style: TextStyle(
                     fontFamily: StringConstants.skBishal,
                     fontSize: 32,
-                    color: Colors.purple,
+                    color: Colors.teal,
                   ),
                 ),
               ),
@@ -56,7 +56,7 @@ class _GKRonoSongitState extends State<GKRonoSongit> {
                 width: 50,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(50),
-                  color: Colors.amber,
+                  color: Colors.teal,
                 ),
               ),
               const Text(

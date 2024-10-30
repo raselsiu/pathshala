@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sunamonir_pathshala/components/general_knowledge_card.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/bangladesher_porichoy.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/freedom_freedom_fighter.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/nationnal_anthem.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/potaka.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/rono_songit.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/vasa_andolon.dart';
 import 'package:sunamonir_pathshala/pages/subject/human_body.dart';
 import 'package:sunamonir_pathshala/utils/image_string/image_constant.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
@@ -24,14 +28,13 @@ class _GeneralKnowledgePageState extends State<GeneralKnowledgePage> {
         // const Color(0xffFBF5F2)
         appBar: AppBar(
           elevation: 0,
-          backgroundColor: const Color(0xffb46007),
+          backgroundColor: const Color(0xff077568),
           iconTheme: const IconThemeData(color: Colors.white),
           title: const Text(
-            'ইংরেজী',
+            'সাধারন জ্ঞান',
             style: TextStyle(
-              fontFamily: StringConstants.bnFontFamily,
-              color: Colors.white,
-              fontSize: 30,
+              fontFamily: StringConstants.skBishal,
+              color: Color(0xffffffff),
             ),
           ),
         ),
@@ -46,144 +49,144 @@ class _GeneralKnowledgePageState extends State<GeneralKnowledgePage> {
                   crossAxisCount: isLandscape ? 4 : 2,
                   mainAxisSpacing: isLandscape ? 20 : 15,
                   crossAxisSpacing: isLandscape ? 20 : 15,
-                  children: const [
-                    GeneralKnowledgeCard(
+                  children: [
+                    const GeneralKnowledgeCard(
                       pageLocation: GKNationAnthem(),
                       imagePath: ImageConstant.gkSongit,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: GKRonoSongit(),
                       imagePath: ImageConstant.gkRonSong,
                     ),
                     GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: Potaka(),
                       imagePath: ImageConstant.gkFlag,
                     ),
                     GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: BangladesherPorichoy(),
                       imagePath: ImageConstant.gkIntroBD,
                     ),
                     GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: VasaAndulon(),
                       imagePath: ImageConstant.gkVasaAndulon,
                     ),
-                    GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                    const GeneralKnowledgeCard(
+                      pageLocation: FreedomAndFreedomFighter(),
                       imagePath: ImageConstant.gkFreedom,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkBongobondu,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkBirsestro,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkFighterKhetab,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkRankIntro,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkSpecialPerson,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkZillaDiv,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkBorder,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkNatDay,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkNatSub,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkEdu,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkTribal,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkFirstInBD,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkBigInBD,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkBigSmall,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkRiverHill,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkSeaRiverBondor,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkAnimalWorld,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkBotany,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkTrees,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkCrops,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkCapitalCurrency,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkScience,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkEarthSolar,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkSevenWonder,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkGeographicalName,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkReligionIntro,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkSAARC,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkIntlOrg,
                     ),
-                    GeneralKnowledgeCard(
+                    const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkContinentOcean,
                     ),

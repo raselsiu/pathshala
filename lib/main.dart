@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sunamonir_pathshala/pages/subject/arabic/allahor_porichoy.dart';
+import 'package:sunamonir_pathshala/pages/subject/generalkn.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
 
 void main() async {
@@ -8,8 +8,6 @@ void main() async {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AllahorPorichoy(),
+      home: const GeneralKnowledgePage(),
       debugShowCheckedModeBanner: false,
     );
   }
