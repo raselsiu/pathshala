@@ -21,9 +21,9 @@ class FreedomAndFreedomFighter extends StatelessWidget {
       ),
       body: ListView.builder(
         padding: const EdgeInsets.only(top: 10, bottom: 20),
-        itemCount: freedomJsonData.length,
+        itemCount: muktijuddhoJsonData.length,
         itemBuilder: (context, index) {
-          final item = freedomJsonData[index];
+          final item = muktijuddhoJsonData[index];
           return Container(
             margin: const EdgeInsets.symmetric(vertical: 5, horizontal: 10),
             decoration: BoxDecoration(

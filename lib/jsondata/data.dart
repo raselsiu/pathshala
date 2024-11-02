@@ -241,7 +241,7 @@ const List<Map<String, dynamic>> vasaAndulonJsonData = [
   },
 ];
 // Freedom Fighter
-const List<Map<String, dynamic>> freedomJsonData = [
+const List<Map<String, dynamic>> birSresthoJsonData = [
   {
     "id": '১',
     "question": "প্রশ্নঃ স্বাধীনতা যুদ্ধে অবদানের জন্য কত জনকে বীরশ্রেষ্ঠ উপাধিতে ভূষিত করা হয়?",
@@ -482,7 +482,7 @@ const List<Map<String, dynamic>> mujibData = [
     "answer": "উঃ- ১৯৬৯ সালের ৫ ডিসেম্বর।",
   },
 ];
-const List<Map<String, dynamic>> virSresthoData = [
+const List<Map<String, dynamic>> muktijuddhoJsonData = [
   {
     'id': '১',
     'question': 'dsfasdfasdf',

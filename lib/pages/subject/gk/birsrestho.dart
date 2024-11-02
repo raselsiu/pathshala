@@ -21,9 +21,9 @@ class BirSrestho extends StatelessWidget {
       ),
       body: ListView.builder(
         padding: const EdgeInsets.only(top: 10, bottom: 20),
-        itemCount: virSresthoData.length,
+        itemCount: birSresthoJsonData.length,
         itemBuilder: (context, index) {
-          final item = virSresthoData[index];
+          final item = birSresthoJsonData[index];
           return Container(
             margin: const EdgeInsets.symmetric(vertical: 5, horizontal: 10),
             decoration: BoxDecoration(
