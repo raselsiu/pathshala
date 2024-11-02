@@ -14,7 +14,7 @@ class FreedomAndFreedomFighter extends StatelessWidget {
           'মুক্তিযুদ্ধ ও স্বাধীনতা',
           style: TextStyle(
             color: Colors.white,
-            fontFamily: StringConstants.skBishal,
+            fontFamily: StringConstants.samirFont,
           ),
         ),
         backgroundColor: const Color(0xff801c34),
@@ -37,26 +37,26 @@ class FreedomAndFreedomFighter extends StatelessWidget {
                 child: Text(
                   item['id'].toString(),
                   style: const TextStyle(
-                      color: Colors.white, fontFamily: StringConstants.skBishal, fontSize: 22),
+                      color: Colors.white, fontFamily: StringConstants.samirFont, fontSize: 22),
                 ),
               ),
               title: Text(
                 item['question'].toString(),
                 style: const TextStyle(
-                    fontFamily: StringConstants.skBishal,
-                    fontSize: 18,
-                    color: Color(0xffa62342),
+                    fontFamily: StringConstants.samirFont,
+                    fontSize: 20,
+                    color: Color(0xff000000),
                     height: 0,
                     letterSpacing: 0),
               ),
               subtitle: Text(
                 item['answer'].toString(),
                 style: const TextStyle(
-                  fontFamily: StringConstants.bnFontFamily,
-                  fontSize: 22,
+                  fontFamily: StringConstants.samirFont,
+                  fontSize: 18,
                   height: 0,
                   letterSpacing: 0,
-                  color: Color(0xff000000),
+                  color: Color(0xffa62342),
                 ),
               ),
             ),

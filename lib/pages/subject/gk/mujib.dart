@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:sunamonir_pathshala/jsondata/data.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
 
-class BangladesherPorichoy extends StatelessWidget {
-  BangladesherPorichoy({super.key});
+class Mujib extends StatelessWidget {
+  const Mujib({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,53 +11,51 @@ class BangladesherPorichoy extends StatelessWidget {
       appBar: AppBar(
         iconTheme: const IconThemeData(color: Colors.white),
         title: const Text(
-          'বাংলাদেশের পরিচয়',
+          'বঙ্গবন্ধু শেখ মুজিবুর রহমান',
           style: TextStyle(
             color: Colors.white,
-            fontFamily: StringConstants.samirFont,
+            fontFamily: StringConstants.skBishal,
           ),
         ),
-        backgroundColor: const Color(0xff00a8d0),
+        backgroundColor: Colors.deepPurple,
       ),
       body: ListView.builder(
         padding: const EdgeInsets.only(top: 10, bottom: 20),
-        itemCount: introduceBDJsonData.length,
+        itemCount: mujibData.length,
         itemBuilder: (context, index) {
-          final item = introduceBDJsonData[index];
+          final item = mujibData[index];
           return Container(
             margin: const EdgeInsets.symmetric(vertical: 5, horizontal: 10),
             decoration: BoxDecoration(
-              color: const Color(0xffffffff), // Background color
+              color: const Color(0x08033f70), // Background color
               border: Border.all(color: Colors.black), // Border color
               borderRadius: BorderRadius.circular(8), // Rounded corners
             ),
             child: ListTile(
               leading: CircleAvatar(
-                backgroundColor: const Color(0xff00a8d0),
+                backgroundColor: Colors.purple,
                 child: Text(
                   item['id'].toString(),
                   style: const TextStyle(
-                      color: Colors.white, fontFamily: StringConstants.skBishal, fontSize: 22),
+                      color: Colors.white, fontFamily: StringConstants.samirFont, fontSize: 22),
                 ),
               ),
               title: Text(
                 item['question'].toString(),
                 style: const TextStyle(
                     fontFamily: StringConstants.samirFont,
-                    color: Color(0xff00a8d0),
-                    fontSize: 20,
+                    fontSize: 18,
                     height: 0,
                     letterSpacing: 0),
               ),
               subtitle: Text(
                 item['answer'].toString(),
                 style: const TextStyle(
-                  fontFamily: StringConstants.samirFont,
-                  fontSize: 18,
-                  height: 0,
-                  letterSpacing: 0,
-                  color: Color(0xff2c2c2c),
-                ),
+                    fontFamily: StringConstants.samirFont,
+                    fontSize: 16,
+                    height: 0,
+                    letterSpacing: 0,
+                    color: Colors.purple),
               ),
             ),
           );

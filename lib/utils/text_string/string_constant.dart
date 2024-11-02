@@ -11,6 +11,7 @@ class StringConstants {
   static const String enFontFamily = 'Inter';
   static const String latoFontFamily = 'Lato';
   static const String skBishal = 'Li SK Bishal';
+  static const String samirFont = 'Li Shohid Shafkat Samir Unicode';
   static const String appsTitle = 'সোনামণির পাঠশালা';
   static const String subTitleBn = 'বাংলা';
   static const String subTitleEn = 'ইংরেজী';

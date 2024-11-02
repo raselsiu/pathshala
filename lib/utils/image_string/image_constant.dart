@@ -690,4 +690,29 @@ class ImageConstant {
   static const String arabAlpha27 = "assets/images/arabic/alphabets/ha_a.png";
   static const String arabAlpha28 = "assets/images/arabic/alphabets/hamza.png";
   static const String arabAlpha29 = "assets/images/arabic/alphabets/ya.png";
+
+//   GK Physics
+  static const String physicsIcon = "assets/images/general_knowledge/logo/physics.png";
+  static const String magnetIcon = "assets/images/general_knowledge/logo/magnet.png";
+  static const String metalIcon = "assets/images/general_knowledge/logo/metal.png";
+  static const String soundWaveIcon = "assets/images/general_knowledge/logo/sound-wave.png";
+  static const String atomIcon = "assets/images/general_knowledge/logo/poromanu.png";
+  static const String atmsIcon = "assets/images/general_knowledge/logo/water.png";
+  static const String gasIcon = "assets/images/general_knowledge/logo/gas.png";
+  static const String solarIcon = "assets/images/general_knowledge/logo/solar.png";
+  static const String greenhouseIcon = "assets/images/general_knowledge/logo/greenhouse.png";
+  static const String geneticsIcon = "assets/images/general_knowledge/logo/genetics.png";
+  static const String humanIcon = "assets/images/general_knowledge/logo/human_bld.png";
+  static const String vitaminIcon = "assets/images/general_knowledge/logo/vitamin-c.png";
+  static const String energyIcon = "assets/images/general_knowledge/logo/energy.png";
+  static const String photosynthesisIcon =
+      "assets/images/general_knowledge/logo/photosynthesis.png";
+  static const String mulIcon = "assets/images/general_knowledge/logo/mul.png";
+  static const String biddhaIcon = "assets/images/general_knowledge/logo/bidda.png";
+  static const String acidIcon = "assets/images/general_knowledge/logo/acid.png";
+  static const String dynamoIcon = "assets/images/general_knowledge/logo/jantrik_sokti.png";
+  static const String measureIcon = "assets/images/general_knowledge/logo/measure.png";
+  static const String cultureIcon = "assets/images/general_knowledge/logo/culture.png";
+  static const String ekokIcon = "assets/images/general_knowledge/logo/ekok.png";
+  static const String inventIcon = "assets/images/general_knowledge/logo/invent.png";
 }

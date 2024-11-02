@@ -43,6 +43,7 @@ flutter:
    - assets/images/english/png/
    - assets/images/general_knowledge/png/
    - assets/images/general_knowledge/
+   - assets/images/general_knowledge/logo/
    - assets/images/arabic/alphabets/
    - assets/images/arabic/surah_img/
 
@@ -63,6 +64,9 @@ flutter:
     - family: 'Uthmanic Script'
       fonts:
         - asset: 'assets/fonts/uthmanic_script.otf'
+    - family: 'Li Shohid Shafkat Samir Unicode'
+      fonts:
+        - asset: 'assets/fonts/samir_font.ttf'
 
 
 #  fonts:

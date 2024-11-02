@@ -2,10 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sunamonir_pathshala/components/general_knowledge_card.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/bangladesher_porichoy.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/birsrestho.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/freedom_freedom_fighter.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/mujib.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/nationnal_anthem.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/potaka.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/rono_songit.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/science.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/vasa_andolon.dart';
 import 'package:sunamonir_pathshala/pages/subject/human_body.dart';
 import 'package:sunamonir_pathshala/utils/image_string/image_constant.dart';
@@ -75,11 +78,11 @@ class _GeneralKnowledgePageState extends State<GeneralKnowledgePage> {
                       imagePath: ImageConstant.gkFreedom,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: Mujib(),
                       imagePath: ImageConstant.gkBongobondu,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: BirSrestho(),
                       imagePath: ImageConstant.gkBirsestro,
                     ),
                     const GeneralKnowledgeCard(
@@ -148,10 +151,6 @@ class _GeneralKnowledgePageState extends State<GeneralKnowledgePage> {
                     ),
                     const GeneralKnowledgeCard(
                       pageLocation: HumanBodyPage(),
-                      imagePath: ImageConstant.gkTrees,
-                    ),
-                    const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
                       imagePath: ImageConstant.gkCrops,
                     ),
                     const GeneralKnowledgeCard(
@@ -159,7 +158,7 @@ class _GeneralKnowledgePageState extends State<GeneralKnowledgePage> {
                       imagePath: ImageConstant.gkCapitalCurrency,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: Science(),
                       imagePath: ImageConstant.gkScience,
                     ),
                     const GeneralKnowledgeCard(

@@ -19,7 +19,7 @@ class _GKRonoSongitState extends State<GKRonoSongit> {
           StringConstants.GKRonoSongitTitle,
           style: TextStyle(
             color: Colors.white,
-            fontFamily: StringConstants.skBishal,
+            fontFamily: StringConstants.samirFont,
           ),
         ),
       ),
@@ -32,7 +32,7 @@ class _GKRonoSongitState extends State<GKRonoSongit> {
                 child: Text(
                   StringConstants.GKRonoSongitTitle,
                   style: TextStyle(
-                    fontFamily: StringConstants.skBishal,
+                    fontFamily: StringConstants.samirFont,
                     fontSize: 32,
                     color: Colors.teal,
                   ),
@@ -42,8 +42,8 @@ class _GKRonoSongitState extends State<GKRonoSongit> {
                 child: Text(
                   StringConstants.GKRonoSongitSubTitle,
                   style: TextStyle(
-                    fontFamily: StringConstants.bnFontFamily,
-                    fontSize: 25,
+                    fontFamily: StringConstants.samirFont,
+                    fontSize: 20,
                     color: Colors.black,
                   ),
                 ),
@@ -63,10 +63,10 @@ class _GKRonoSongitState extends State<GKRonoSongit> {
                 StringConstants.GKRonoSongitDesc,
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: Colors.black,
+                  color: Colors.teal,
                   fontSize: 28,
-                  fontFamily: 'Nikosh',
-                  fontWeight: FontWeight.w400,
+                  fontFamily: StringConstants.bnFontFamily,
+                  fontWeight: FontWeight.w100,
                   height: 0,
                 ),
               )
