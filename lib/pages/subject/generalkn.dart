@@ -3,13 +3,21 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sunamonir_pathshala/components/general_knowledge_card.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/bangladesher_porichoy.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/birsrestho.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/bisistho_bektitto.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/border_area.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/education.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/freedom_freedom_fighter.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/khetab.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/mujib.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/national_day.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/national_subject.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/nationnal_anthem.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/poder_porichoy.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/potaka.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/rono_songit.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/science.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/vasa_andolon.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/zila_and_bivag.dart';
 import 'package:sunamonir_pathshala/pages/subject/human_body.dart';
 import 'package:sunamonir_pathshala/utils/image_string/image_constant.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
@@ -85,36 +93,36 @@ class _GeneralKnowledgePageState extends State<GeneralKnowledgePage> {
                       pageLocation: BirSrestho(),
                       imagePath: ImageConstant.gkBirsestro,
                     ),
-                    const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                    GeneralKnowledgeCard(
+                      pageLocation: Khetab(),
                       imagePath: ImageConstant.gkFighterKhetab,
                     ),
-                    const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                    GeneralKnowledgeCard(
+                      pageLocation: PoderPorichoy(),
                       imagePath: ImageConstant.gkRankIntro,
                     ),
-                    const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                    GeneralKnowledgeCard(
+                      pageLocation: BisisthoBektittoData(),
                       imagePath: ImageConstant.gkSpecialPerson,
                     ),
-                    const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                    GeneralKnowledgeCard(
+                      pageLocation: zilaAndBivag(),
                       imagePath: ImageConstant.gkZillaDiv,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: BorderArea(),
                       imagePath: ImageConstant.gkBorder,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: NationalDay(),
                       imagePath: ImageConstant.gkNatDay,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: NationalSubject(),
                       imagePath: ImageConstant.gkNatSub,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: GKEducation(),
                       imagePath: ImageConstant.gkEdu,
                     ),
                     const GeneralKnowledgeCard(

@@ -11,10 +11,10 @@ class BirSrestho extends StatelessWidget {
       appBar: AppBar(
         iconTheme: const IconThemeData(color: Colors.white),
         title: const Text(
-          'বীরশ্রেষ্ঠ-',
+          'উপাধি সমূহ',
           style: TextStyle(
             color: Colors.white,
-            fontFamily: StringConstants.skBishal,
+            fontFamily: StringConstants.samirFont,
           ),
         ),
         backgroundColor: Colors.deepPurple,
@@ -37,22 +37,22 @@ class BirSrestho extends StatelessWidget {
                 child: Text(
                   item['id'].toString(),
                   style: const TextStyle(
-                      color: Colors.white, fontFamily: StringConstants.skBishal, fontSize: 22),
+                      color: Colors.white, fontFamily: StringConstants.samirFont, fontSize: 22),
                 ),
               ),
               title: Text(
                 item['question'].toString(),
                 style: const TextStyle(
-                    fontFamily: StringConstants.skBishal,
-                    fontSize: 18,
+                    fontFamily: StringConstants.samirFont,
+                    fontSize: 20,
                     height: 0,
                     letterSpacing: 0),
               ),
               subtitle: Text(
                 item['answer'].toString(),
                 style: const TextStyle(
-                    fontFamily: StringConstants.bnFontFamily,
-                    fontSize: 22,
+                    fontFamily: StringConstants.samirFont,
+                    fontSize: 18,
                     height: 0,
                     letterSpacing: 0,
                     color: Colors.purple),
