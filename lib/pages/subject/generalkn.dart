@@ -1,24 +1,39 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sunamonir_pathshala/components/general_knowledge_card.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/animal_env.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/bangladesher_porichoy.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/big_small_in_bd.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/birsrestho.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/bisistho_bektitto.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/border_area.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/botany.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/continental_ocean.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/country_capital_currency.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/crops.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/education.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/first_in_bd.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/freedom_freedom_fighter.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/geographical_name.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/international_org.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/khetab.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/mujib.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/national_day.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/national_subject.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/nationnal_anthem.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/planet_solar_universe.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/poder_porichoy.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/potaka.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/relegion_intro.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/river_hill_.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/rono_songit.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/saarc.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/science.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/sea_sea_port_.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/seven_wonders.dart';
+import 'package:sunamonir_pathshala/pages/subject/gk/tributes.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/vasa_andolon.dart';
 import 'package:sunamonir_pathshala/pages/subject/gk/zila_and_bivag.dart';
-import 'package:sunamonir_pathshala/pages/subject/human_body.dart';
 import 'package:sunamonir_pathshala/utils/image_string/image_constant.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
 
@@ -126,43 +141,39 @@ class _GeneralKnowledgePageState extends State<GeneralKnowledgePage> {
                       imagePath: ImageConstant.gkEdu,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: Tributes(),
                       imagePath: ImageConstant.gkTribal,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: FirstInBD(),
                       imagePath: ImageConstant.gkFirstInBD,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
-                      imagePath: ImageConstant.gkBigInBD,
-                    ),
-                    const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: BigSmallInBD(),
                       imagePath: ImageConstant.gkBigSmall,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: RiverHill(),
                       imagePath: ImageConstant.gkRiverHill,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: SeaSeaPort(),
                       imagePath: ImageConstant.gkSeaRiverBondor,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: AnimalEnvironment(),
                       imagePath: ImageConstant.gkAnimalWorld,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: Botany(),
                       imagePath: ImageConstant.gkBotany,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: Crops(),
                       imagePath: ImageConstant.gkCrops,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: CountryCapitalCurrency(),
                       imagePath: ImageConstant.gkCapitalCurrency,
                     ),
                     const GeneralKnowledgeCard(
@@ -170,31 +181,31 @@ class _GeneralKnowledgePageState extends State<GeneralKnowledgePage> {
                       imagePath: ImageConstant.gkScience,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: PlanetSolarUniverse(),
                       imagePath: ImageConstant.gkEarthSolar,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: SevenWonders(),
                       imagePath: ImageConstant.gkSevenWonder,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: GeographicalName(),
                       imagePath: ImageConstant.gkGeographicalName,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: ReligionIntroduce(),
                       imagePath: ImageConstant.gkReligionIntro,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: SAARC(),
                       imagePath: ImageConstant.gkSAARC,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: InternationalOrg(),
                       imagePath: ImageConstant.gkIntlOrg,
                     ),
                     const GeneralKnowledgeCard(
-                      pageLocation: HumanBodyPage(),
+                      pageLocation: ContinentalOcean(),
                       imagePath: ImageConstant.gkContinentOcean,
                     ),
                   ],
