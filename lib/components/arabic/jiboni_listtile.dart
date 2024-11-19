@@ -2,25 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:sunamonir_pathshala/utils/image_string/image_constant.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
 
-class SurahTileList extends StatefulWidget {
-  final String surahName;
-  final String ayahCount;
-  final Color tileColor;
+class JiboniListTile extends StatefulWidget {
+  final String name;
   final Widget page;
 
-  const SurahTileList({
+  const JiboniListTile({
     super.key,
-    required this.surahName,
-    required this.tileColor,
-    required this.ayahCount,
+    required this.name,
     required this.page,
   });
 
   @override
-  State<SurahTileList> createState() => _SurahTileListState();
+  State<JiboniListTile> createState() => _JiboniListTileState();
 }
 
-class _SurahTileListState extends State<SurahTileList> {
+class _JiboniListTileState extends State<JiboniListTile> {
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -36,23 +32,19 @@ class _SurahTileListState extends State<SurahTileList> {
         },
         tileColor: Colors.white,
         leading: Image.asset(
-          ImageConstant.surahLeadingIcon,
+          ImageConstant.jiboniIcon,
           height: 40,
           width: 40,
         ),
         title: Text(
-          widget.surahName,
+          widget.name,
           style: const TextStyle(
-              fontFamily: StringConstants.skBishal, fontSize: 22, color: Color(0xff23810e)),
-        ),
-        subtitle: Text(
-          widget.ayahCount,
-          style: const TextStyle(
-            fontFamily: StringConstants.bnFontFamily,
-            fontSize: 20,
-            color: Colors.black,
+            fontFamily: StringConstants.samirFont,
+            fontSize: 22,
+            color: Color(0xff0f568a),
           ),
         ),
+        trailing: const Icon(Icons.arrow_forward_ios_outlined),
         shape: RoundedRectangleBorder(
           // side: const BorderSide(color: Colors.purpleAccent, width: 1),
           borderRadius: BorderRadius.circular(10),

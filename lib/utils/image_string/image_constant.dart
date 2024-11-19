@@ -648,6 +648,7 @@ class ImageConstant {
 //   Surah Leading Icon
 
   static const String surahLeadingIcon = "assets/images/arabic/quran.png";
+  static const String jiboniIcon = "assets/images/arabic/muslim.png";
   static const String surahFatihaImg = "assets/images/arabic/surah_img/fatiha.png";
   static const String surahIkhlasImg = "assets/images/arabic/surah_img/ikhlas.png";
   static const String surahNasImg = "assets/images/arabic/surah_img/nas.png";

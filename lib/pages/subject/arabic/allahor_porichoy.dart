@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sunamonir_pathshala/utils/text_string/arabic.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
 
 class AllahorPorichoy extends StatelessWidget {
@@ -67,7 +68,7 @@ class AllahorPorichoy extends StatelessWidget {
                           ),
                           children: <TextSpan>[
                             TextSpan(
-                              text: StringConstants.allahIntro,
+                              text: ArabicString.allahIntro,
                               style: TextStyle(
                                 fontFamily: StringConstants.bnFontFamily,
                                 fontSize: 22,
