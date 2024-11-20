@@ -3,13 +3,13 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sunamonir_pathshala/pages/subject/arabic/akhlak.dart';
 import 'package:sunamonir_pathshala/pages/subject/arabic/allahor_porichoy.dart';
 import 'package:sunamonir_pathshala/pages/subject/arabic/ar_alphabet.dart';
+import 'package:sunamonir_pathshala/pages/subject/arabic/asmani_kitab_and_feresta.dart';
 import 'package:sunamonir_pathshala/pages/subject/arabic/azan_and_salat.dart';
 import 'package:sunamonir_pathshala/pages/subject/arabic/duaa.dart';
 import 'package:sunamonir_pathshala/pages/subject/arabic/jiboni_page.dart';
 import 'package:sunamonir_pathshala/pages/subject/arabic/oju_and_gusol.dart';
 import 'package:sunamonir_pathshala/pages/subject/arabic/poem.dart';
 import 'package:sunamonir_pathshala/pages/subject/arabic/surah_page.dart';
-import 'package:sunamonir_pathshala/pages/subject/bangla/sorborno.dart';
 import 'package:sunamonir_pathshala/utils/image_string/image_constant.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
 
@@ -249,7 +249,7 @@ class _ArabicContentPageState extends State<ArabicContentPage> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => Sorborno(),
+                                builder: (context) => const AsmaniKitabAndFreresta(),
                               ))
                         },
                         child: Container(
