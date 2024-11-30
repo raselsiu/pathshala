@@ -16,6 +16,7 @@ dependencies:
   audioplayers: ^5.2.1
   just_audio: ^0.9.42
   connectivity_plus: ^6.1.0
+  font_awesome_flutter: ^10.8.0
 
 dev_dependencies:
   flutter_test:
@@ -26,6 +27,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+   - assets/quiz_data/gk_quiz.json
    - assets/images/
    - assets/images/sorborno/
    - assets/images/arabic/
@@ -48,10 +50,12 @@ flutter:
    - assets/images/general_knowledge/logo/
    - assets/images/arabic/alphabets/
    - assets/images/arabic/surah_img/
+   - assets/images/english/alphabet/capital_letter/
+   - assets/images/english/alphabet/small_letter/
 
 
   fonts:
-    - family: Nikosh
+    - family: 'Nikosh'
       fonts:
         - asset: assets/fonts/Nikosh.ttf
     - family: Inter
@@ -69,6 +73,9 @@ flutter:
     - family: 'Li Shohid Shafkat Samir Unicode'
       fonts:
         - asset: 'assets/fonts/samir_font.ttf'
+    - family: '"Kanit", sans-serif'
+      fonts:
+        - asset: 'assets/fonts/Kanit-SemiBold.ttf'
 
 
 #  fonts:

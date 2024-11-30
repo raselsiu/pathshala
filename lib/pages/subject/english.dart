@@ -28,7 +28,7 @@ class _EnglishPageState extends State<EnglishPage> {
           title: const Text(
             'English',
             style: TextStyle(
-              fontFamily: StringConstants.latoFontFamily,
+              fontFamily: StringConstants.enFontKanit,
               color: Colors.white,
               fontSize: 30,
             ),

@@ -2,6 +2,7 @@ class StringConstants {
   static const String barTitle = 'ক্যাটাগরি';
   static const String barTitle2 = 'পাঠ্যক্রম তালিকা';
   static const String bnFontFamily = 'Nikosh';
+  static const String enFontKanit = '"Kanit", sans-serif';
   static const String arabicFont = 'Uthmanic Script';
   static const String enFontFamily = 'Inter';
   static const String latoFontFamily = 'Lato';
