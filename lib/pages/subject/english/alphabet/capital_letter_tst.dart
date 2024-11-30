@@ -10,6 +10,7 @@ class CapitalLetterTest extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: const Color(0xff484848),
         appBar: AppBar(
           iconTheme: const IconThemeData(color: Colors.white),
           title: const Text(
@@ -20,7 +21,7 @@ class CapitalLetterTest extends StatelessWidget {
               color: Colors.white,
             ),
           ),
-          backgroundColor: Colors.teal,
+          backgroundColor: const Color(0xff3f5d59),
         ),
         body: GridView.count(
           primary: false,

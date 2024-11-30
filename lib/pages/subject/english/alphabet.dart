@@ -3,9 +3,10 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:sunamonir_pathshala/components/english/alphabet_list_card.dart';
 import 'package:sunamonir_pathshala/pages/homepage.dart';
 import 'package:sunamonir_pathshala/pages/subject/english/alphabet/capital_letter.dart';
-import 'package:sunamonir_pathshala/pages/subject/english/alphabet/capital_letter_test.dart';
+import 'package:sunamonir_pathshala/pages/subject/english/alphabet/capital_letter_tst.dart';
 import 'package:sunamonir_pathshala/pages/subject/english/alphabet/small_letter.dart';
-import 'package:sunamonir_pathshala/pages/subject/english/alphabet/small_letter_test.dart';
+import 'package:sunamonir_pathshala/pages/subject/english/alphabet/small_letter_tst.dart';
+import 'package:sunamonir_pathshala/pages/subject/english/alphabet/word_making.dart';
 import 'package:sunamonir_pathshala/utils/text_string/string_constant.dart';
 
 class EngAlphabet extends StatelessWidget {
@@ -66,7 +67,7 @@ class EngAlphabet extends StatelessWidget {
                 subtitle: 'শব্দ তৈরী',
                 iconBgClr: Color(0xffD63484),
                 icons: FontAwesomeIcons.listUl,
-                pageLocation: Homepage(),
+                pageLocation: WordMaking(),
               ),
               AlphabetCustomList(
                 title: 'Fill in the Gaps',

@@ -22,7 +22,7 @@ class CapitalLetter extends StatelessWidget {
               color: Colors.white,
             ),
           ),
-          backgroundColor: const Color(0xff3f5d59),
+          backgroundColor: const Color(0xff406c66),
         ),
         body: GridView.count(
           primary: false,

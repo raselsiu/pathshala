@@ -54,4 +54,15 @@ class ImageConstEnglish {
   static const String letterSx = "assets/images/english/alphabet/small_letter/sx.png";
   static const String letterSy = "assets/images/english/alphabet/small_letter/sy.png";
   static const String letterSz = "assets/images/english/alphabet/small_letter/sz.png";
+
+//   Word Making
+
+  static const String word1 = "assets/images/english/alphabet/word/1.png";
+  static const String word2 = "assets/images/english/alphabet/word/2.png";
+  static const String word3 = "assets/images/english/alphabet/word/3.png";
+  static const String word4 = "assets/images/english/alphabet/word/4.png";
+  static const String word5 = "assets/images/english/alphabet/word/5.png";
+  static const String word6 = "assets/images/english/alphabet/word/6.png";
+  static const String word7 = "assets/images/english/alphabet/word/7.png";
+  static const String word8 = "assets/images/english/alphabet/word/8.png";
 }

@@ -52,6 +52,7 @@ flutter:
    - assets/images/arabic/surah_img/
    - assets/images/english/alphabet/capital_letter/
    - assets/images/english/alphabet/small_letter/
+   - assets/images/english/alphabet/word/
 
 
   fonts:

@@ -20,17 +20,16 @@ class _EnglishPageState extends State<EnglishPage> {
 
     return Scaffold(
         backgroundColor: const Color(0xffFFEFE8),
-        // const Color(0xffFBF5F2)
         appBar: AppBar(
           elevation: 0,
-          backgroundColor: const Color(0xffb46007),
+          backgroundColor: const Color(0xffce506d),
           iconTheme: const IconThemeData(color: Colors.white),
           title: const Text(
-            'English',
+            'English - (ইংরেজী)',
             style: TextStyle(
-              fontFamily: StringConstants.enFontKanit,
+              fontFamily: StringConstants.samirFont,
               color: Colors.white,
-              fontSize: 30,
+              fontSize: 25,
             ),
           ),
         ),
