@@ -85,6 +85,132 @@ class WordMaking extends StatelessWidget {
                         child: Image.asset(ImageConstEnglish.word8),
                       ),
                     ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word9),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word10),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word11),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word12),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word13),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word14),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word15),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word16),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word17),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word18),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word19),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word20),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word21),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word22),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word23),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word24),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word25),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.word26),
+                      ),
+                    ),
                   ],
                 ),
               )

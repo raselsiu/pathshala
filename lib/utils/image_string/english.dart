@@ -65,4 +65,22 @@ class ImageConstEnglish {
   static const String word6 = "assets/images/english/alphabet/word/6.png";
   static const String word7 = "assets/images/english/alphabet/word/7.png";
   static const String word8 = "assets/images/english/alphabet/word/8.png";
+  static const String word9 = "assets/images/english/alphabet/word/9.png";
+  static const String word10 = "assets/images/english/alphabet/word/10.png";
+  static const String word11 = "assets/images/english/alphabet/word/11.png";
+  static const String word12 = "assets/images/english/alphabet/word/12.png";
+  static const String word13 = "assets/images/english/alphabet/word/13.png";
+  static const String word14 = "assets/images/english/alphabet/word/14.png";
+  static const String word15 = "assets/images/english/alphabet/word/15.png";
+  static const String word16 = "assets/images/english/alphabet/word/16.png";
+  static const String word17 = "assets/images/english/alphabet/word/17.png";
+  static const String word18 = "assets/images/english/alphabet/word/18.png";
+  static const String word19 = "assets/images/english/alphabet/word/19.png";
+  static const String word20 = "assets/images/english/alphabet/word/20.png";
+  static const String word21 = "assets/images/english/alphabet/word/21.png";
+  static const String word22 = "assets/images/english/alphabet/word/22.png";
+  static const String word23 = "assets/images/english/alphabet/word/23.png";
+  static const String word24 = "assets/images/english/alphabet/word/24.png";
+  static const String word25 = "assets/images/english/alphabet/word/25.png";
+  static const String word26 = "assets/images/english/alphabet/word/26.png";
 }
