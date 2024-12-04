@@ -73,7 +73,7 @@ class FillInTheGaps extends StatelessWidget {
                       style: TextStyle(
                         fontFamily: StringConstants.enFontFamily,
                         fontWeight: FontWeight.bold,
-                        fontSize: 30,
+                        fontSize: 50,
                       ),
                     ),
                   ],
@@ -87,12 +87,1062 @@ class FillInTheGaps extends StatelessWidget {
                       padding: const EdgeInsets.only(bottom: 15.0),
                       child: GestureDetector(
                         onTap: () {},
-                        child: Image.asset(ImageConstEnglish.word1),
+                        child: Image.asset(ImageConstEnglish.fillGaps1),
                       ),
                     ),
                   ],
                 ),
-              )
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'B',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps2),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'C',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps3),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'D',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps4),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'E',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps5),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'F',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps6),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'G',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps7),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'H',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps8),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'I',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps9),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'J',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps10),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'K',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps11),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'L',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps12),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'M',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps13),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'N',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps14),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'O',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps15),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'P',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps16),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'Q',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps17),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'R',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps18),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'S',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps19),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'T',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps20),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'U',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps21),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'V',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps22),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'W',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps23),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'X',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps24),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'Y',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps25),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Container(
+                      height: 25,
+                      width: 25,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        color: Colors.purple,
+                      ),
+                      child: const Icon(
+                        Icons.arrow_forward_ios_outlined,
+                        color: Colors.white,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    const Text(
+                      'Z',
+                      style: TextStyle(
+                        fontFamily: StringConstants.enFontFamily,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 15.0),
+                      child: GestureDetector(
+                        onTap: () {},
+                        child: Image.asset(ImageConstEnglish.fillGaps26),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ));

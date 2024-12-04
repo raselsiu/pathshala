@@ -83,4 +83,32 @@ class ImageConstEnglish {
   static const String word24 = "assets/images/english/alphabet/word/24.png";
   static const String word25 = "assets/images/english/alphabet/word/25.png";
   static const String word26 = "assets/images/english/alphabet/word/26.png";
+
+//   Fill_In_The_Gaps
+  static const String fillGaps1 = "assets/images/english/alphabet/fillin_the_gap/1.png";
+  static const String fillGaps2 = "assets/images/english/alphabet/fillin_the_gap/2.png";
+  static const String fillGaps3 = "assets/images/english/alphabet/fillin_the_gap/3.png";
+  static const String fillGaps4 = "assets/images/english/alphabet/fillin_the_gap/4.png";
+  static const String fillGaps5 = "assets/images/english/alphabet/fillin_the_gap/5.png";
+  static const String fillGaps6 = "assets/images/english/alphabet/fillin_the_gap/6.png";
+  static const String fillGaps7 = "assets/images/english/alphabet/fillin_the_gap/7.png";
+  static const String fillGaps8 = "assets/images/english/alphabet/fillin_the_gap/8.png";
+  static const String fillGaps9 = "assets/images/english/alphabet/fillin_the_gap/9.png";
+  static const String fillGaps10 = "assets/images/english/alphabet/fillin_the_gap/10.png";
+  static const String fillGaps11 = "assets/images/english/alphabet/fillin_the_gap/11.png";
+  static const String fillGaps12 = "assets/images/english/alphabet/fillin_the_gap/12.png";
+  static const String fillGaps13 = "assets/images/english/alphabet/fillin_the_gap/13.png";
+  static const String fillGaps14 = "assets/images/english/alphabet/fillin_the_gap/14.png";
+  static const String fillGaps15 = "assets/images/english/alphabet/fillin_the_gap/15.png";
+  static const String fillGaps16 = "assets/images/english/alphabet/fillin_the_gap/16.png";
+  static const String fillGaps17 = "assets/images/english/alphabet/fillin_the_gap/17.png";
+  static const String fillGaps18 = "assets/images/english/alphabet/fillin_the_gap/18.png";
+  static const String fillGaps19 = "assets/images/english/alphabet/fillin_the_gap/19.png";
+  static const String fillGaps20 = "assets/images/english/alphabet/fillin_the_gap/20.png";
+  static const String fillGaps21 = "assets/images/english/alphabet/fillin_the_gap/21.png";
+  static const String fillGaps22 = "assets/images/english/alphabet/fillin_the_gap/22.png";
+  static const String fillGaps23 = "assets/images/english/alphabet/fillin_the_gap/23.png";
+  static const String fillGaps24 = "assets/images/english/alphabet/fillin_the_gap/24.png";
+  static const String fillGaps25 = "assets/images/english/alphabet/fillin_the_gap/25.png";
+  static const String fillGaps26 = "assets/images/english/alphabet/fillin_the_gap/26.png";
 }

@@ -53,6 +53,7 @@ flutter:
    - assets/images/english/alphabet/capital_letter/
    - assets/images/english/alphabet/small_letter/
    - assets/images/english/alphabet/word/
+   - assets/images/english/alphabet/fillin_the_gap/
 
 
   fonts:
